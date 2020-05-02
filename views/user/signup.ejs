@@ -1,0 +1,30 @@
+<%- include("../partials/header") -%>
+
+<h2>This is signup page</h2>
+
+<form action="/signup" method="post">
+    <div class="form-group">
+        <input type="text" name="fname" placeholder="Enter First name" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <input type="text" name="lname" placeholder="Enter Last name name" class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Enter Email" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <input type="text" name="username" placeholder="Enter username" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <input type="password" name="password" placeholder="Enter password" class="form-control" required>
+    </div>  
+    <div class="form-group">
+        <input type="password" name="confpass" placeholder="Confirm password" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <input type="url" name="avatarurl" placeholder="Enter url for Avatar image" class="form-control">
+    </div>
+    <input type="submit" value="Submit" class="btn btn-info">
+</form>
+
+<%- include("../partials/footer") -%>

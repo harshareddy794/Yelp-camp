@@ -1,0 +1,39 @@
+<%- include("../partials/header") -%>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="user-details">
+                    <img src="<%=user.avatarurl %>">
+                    <div>
+                        <p><strong>User name: </strong><%= user.username %></p>
+                        <p><strong>First name: </strong><%= user.fname %></p>
+                        <p><strong>Last name: </strong><%= user.lname %></p>
+                        <p><strong>Email: </strong><%= user.email %></p>
+                    </div>
+                    <% if(currentUser && (user._id).equals(currentUser._id)){ %>
+                        <a href="/user/<%= user._id %>/edit" class="btn btn-info">Edit profile</a>
+                    <% } %>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <% if(camps.length<1) { %>
+                    <center>
+                        <h4>You don't own any campgrounds to show</h4>
+                    </center>
+                <% }else{ %>
+                <% camps.forEach(function(camp){ %>
+                    <div class=" user-camp">
+                        <img src="<%= camp.image %>">
+                        <div>
+                            <h4><%= camp.name %></h4>
+                            <a href="/campgrounds/<%= camp._id %>" class="ml-auto btn btn-info">Go to camp</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <% }) }%>
+            </div>
+        </div>
+    </div> 
+
+<%- include("../partials/footer") -%>

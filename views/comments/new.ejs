@@ -1,0 +1,9 @@
+<%- include("../partials/header") -%>
+<h2>Add new comment to <%= campground.name %></h2>
+<form action="/campground/<%= campground._id %>/comment" method="post">
+    <div class="form-group">
+        <input type="text" name="newComment[text]" class="form-control" placeholder="Enter comment" required>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary btn-block">
+</form>
+<%- include("../partials/footer") -%>

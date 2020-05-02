@@ -1,0 +1,23 @@
+<%- include("../partials/header") -%>
+
+<div class="container">
+    <h1 style="text-align: center;">Add your camp here</h1>
+    <form action="/campgrounds" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Enter name of campground" required>
+        </div>
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="description" placeholder="description" required>
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" name="price" placeholder="Enter price for campground" required>
+        </div>
+        <button class="btn btn-block btn-primary">Submit</button>
+    </form>
+</div>
+
+<%- include("../partials/footer") -%>

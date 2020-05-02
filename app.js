@@ -13,7 +13,11 @@ require('dotenv').config()
 
 //+++++++++++++ mongoose connection ++++++++++++
 var mongoos=require("mongoose")
-mongoos.connect("mongodb://127.0.0.1:27017/Yelp_camp", {useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false})
+mongoos.connect(process.env.URL,{useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false,useCreateIndex:true},function(err){
+    if(err){
+        console.log("cannot connect to database")
+    }
+})
 
 //++++++++++++ Passport initilize ++++++++++++++++++++
 var passport=require("passport")
@@ -56,6 +60,6 @@ app.use(campRoutes)
 app.use(commentRoutes)
 
 //++++++++++++ Listening port +++++++++++++++++++
-app.listen(3000,"127.0.0.1",function(){
+app.listen(process.env.PORT,process.env.IP,function(){
     console.log("app is listining")
 })
