@@ -1,4 +1,15 @@
 # Yelp-camp
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+[![ForTheBadge winter-is-coming](http://ForTheBadge.com/images/badges/winter-is-coming.svg)](http://ForTheBadge.com)
+![David](https://img.shields.io/david/harshareddy794/Yelp-camp)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
 
 ## Introduction
 As a part of learning my full stack web developement course I have made this project Yelp camp :tent: .Yelp camp is used to connect campers with campgrounds across the world.Learnt lot of stuff during this journey.This project made me fell in love with web developement :heart_eyes: :heart: . This project is made using Javascript frameworks like Nodejs and Express used some amazing tools like flash, express sessions and passport which made my work very easy in developement of project . Deployed project at 
@@ -54,9 +65,16 @@ node app.js
 
 
 ## contribution
-Every one who love open source projects and web developement can contribute to my project. :heart:
+Every one who love open source projects and web developement can contribute to my project :heart: .Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. 
 Every contribution is valuable and if you feel any issues in the project feel free to open an issue :fist:
 
+## Contact
+**Email:** harshareddy794@gmail.com
+
+**LinkedIn:** www.linkedin.com/in/harshareddy794
+
+## Acknowledgement
+Thank you every who helped me in building such an amazing project 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
