@@ -35,7 +35,7 @@ https://yelp-camp-harsha.herokuapp.com/
 ## Inital setup
  1. Clone github repository locally using terminal using command
  ```bash 
-git colne https://github.com/harshareddy794/Yelp-camp.git
+git clone https://github.com/harshareddy794/Yelp-camp.git
 ```
 2. Install all dependencies using command
 ```
